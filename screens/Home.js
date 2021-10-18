@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { Text, View, Button } from 'react-native';
 
 export default class Home extends React.Component {
   render() {
@@ -15,6 +15,6 @@ export default class Home extends React.Component {
           title = "View Profiles"></Button>
         </View>
     );
-  };
+  }
 }
 

@@ -1,3 +1,4 @@
+/* eslint-env node */
 class parseRepository {
     
 	constructor(response) {

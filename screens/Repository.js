@@ -1,6 +1,6 @@
 import React, { useState, useEffect} from 'react';
 import { DataTable } from 'react-native-paper';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { Text, View } from 'react-native';
 import {parseRepository} from '../parsers/parseRepository.js'
 import { API_KEY } from "@env";
 

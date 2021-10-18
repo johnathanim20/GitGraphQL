@@ -1,5 +1,5 @@
 import React, { useState, useEffect} from 'react';
-import { StyleSheet, Text, View, Button } from 'react-native';
+import { Text, View, Button } from 'react-native';
 import {parseProfile} from '../parsers/parseProfile.js';
 import { API_KEY } from "@env";
 

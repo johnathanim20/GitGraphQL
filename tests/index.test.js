@@ -1,7 +1,8 @@
+/* eslint-env node */
 import { parseProfile } from '../parsers/parseProfile.js';
 import { parseRepository } from '../parsers/parseRepository.js';
 
-response = {
+var response = {
     "data": {
       "user": {
         "avatarUrl": "https://avatars.githubusercontent.com/u/47126949?v=4",
@@ -34,7 +35,7 @@ response = {
       },
     },
   }
-  response2 = {
+  var response2 = {
     "data": {
       "user": {
         "repositories": {
@@ -60,29 +61,29 @@ response = {
   }
 
 test("Parse info from Profile Page1", () => {
-    p = new parseProfile(response);
+    var p = new parseProfile(response);
     expect(p.name).toBe("Johnathan Im");
 });
 
 test("Parse info from Profile Page2", () => {
-    p = new parseProfile(response);
+    var p = new parseProfile(response);
     expect(p.followers).toBe(0);
 });
 
 test("Parse info from Profile Page3", () => {
-    p = new parseProfile(response);
+    var p = new parseProfile(response);
     expect(p.email).toBe('');
 });
 
 test("Parse info from Repo Page1", () => {
-    p2 = new parseRepository(response2);
+    var p2 = new parseRepository(response2);
     expect(p2.name[0].name).toBe('Test');
 });
 test("Parse info from Repo Page2", () => {
-    p2 = new parseRepository(response2);
+    var p2 = new parseRepository(response2);
     expect(p2.name[1].name).toBe('test2');
 });
 test("Parse info from Repo Page3", () => {
-    p2 = new parseRepository(response2);
+    var p2 = new parseRepository(response2);
     expect(p2.name[1].owner.login).toBe('johnathanim20');
 });

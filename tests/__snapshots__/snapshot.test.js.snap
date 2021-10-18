@@ -1,0 +1,370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot1 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#00FFE4",
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        View Repositories
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        View Followers
+      </Text>
+    </View>
+  </View>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        View Following
+      </Text>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`snapshot2 1`] = `
+<View
+  style={
+    Object {
+      "container": Object {
+        "paddingHorizontal": 0,
+        "paddingTop": 0,
+      },
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "width": "100%",
+        },
+        undefined,
+      ]
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "height": 48,
+            "paddingHorizontal": 16,
+          },
+          Object {
+            "borderBottomColor": "rgba(0, 0, 0, 0.12)",
+          },
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignContent": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "paddingVertical": 12,
+            },
+            undefined,
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "height": 24,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "rgba(0, 0, 0, 0.6)",
+                },
+              ],
+            ]
+          }
+        >
+          Repo Name
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignContent": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "paddingVertical": 12,
+            },
+            undefined,
+            Object {
+              "flex": 1.5,
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "height": 24,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "rgba(0, 0, 0, 0.6)",
+                },
+              ],
+            ]
+          }
+        >
+          Username
+        </Text>
+      </View>
+      <View
+        accessible={true}
+        focusable={false}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "alignContent": "center",
+              "flex": 1,
+              "flexDirection": "row",
+              "paddingVertical": 12,
+            },
+            undefined,
+            Object {
+              "flex": 1,
+            },
+          ]
+        }
+      >
+        <Text
+          numberOfLines={1}
+          style={
+            Array [
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontWeight": "400",
+              },
+              Object {
+                "textAlign": "left",
+              },
+              Array [
+                Object {
+                  "alignItems": "center",
+                  "fontSize": 12,
+                  "fontWeight": "500",
+                  "height": 24,
+                  "lineHeight": 24,
+                },
+                Object {
+                  "color": "rgba(0, 0, 0, 0.6)",
+                },
+              ],
+            ]
+          }
+        >
+          Description
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
+
+exports[`snapshot3 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#00FFE4",
+    }
+  }
+>
+  <Text>
+    Following Screen
+  </Text>
+</View>
+`;
+
+exports[`snapshot4 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#00FFE4",
+    }
+  }
+>
+  <Text>
+    Followers Screen
+  </Text>
+</View>
+`;
